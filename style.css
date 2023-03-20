@@ -1,0 +1,60 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  margin: 100px;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color:chocolate;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(219, 126, 59);
+}
+
+input {
+  margin: 10px;
+  width: 350px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  outline-width: 0;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: white;
+  background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png');
+  background-size: 30px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+ul li {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 5px 5px 5px;
+  background-color: chocolate;
+  border-radius: 10px;
+  text-align: center;
+}
+
+li:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(219, 126, 59);
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover{
+  color: black;
+  text-decoration: none;
+}
